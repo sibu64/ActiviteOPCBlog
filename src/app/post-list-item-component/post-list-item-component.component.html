@@ -1,7 +1,7 @@
 <div [ngClass]="post.loveIts > 0 ? 'vert' : 'rouge'">
     <h1>{{post.title}}</h1>
 <p>{{post.content}}</p>
-<p>{{post.created_at|date:'shortTime'}}</p>
+<p id="creation">{{post.created_at|date:'short'}}</p>
 <button (click)="like()">J'aime</button>
 <button (click)= "dislike()">J'aime pas</button>
 </div>
