@@ -5,3 +5,11 @@ background:red;
 .vert{
     background:green;
 }
+
+h1{
+    display: inline-block;
+}
+
+#creation{
+    float: right;
+}
